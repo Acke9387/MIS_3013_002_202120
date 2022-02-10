@@ -25,7 +25,7 @@ else
 {
     //usersGuess = -1;
     Console.WriteLine("Invalid input.");
-    Environment.Exit(usersGuess)
+    Environment.Exit(usersGuess);
 }
 
 if (randomNumber == HEADS)
