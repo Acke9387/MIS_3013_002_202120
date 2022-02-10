@@ -56,7 +56,8 @@ do
     Console.WriteLine("Do you want to play again? yes or no >>");
     answer = Console.ReadLine();
 
-} while (answer == "yes");
+//} while (Console.ReadLine() == "yes");
+} while (answer.ToLower() == "yes");
 
 
 Console.WriteLine($"Developed by {DEVELOPER_INFORMATION}");
