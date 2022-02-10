@@ -4,48 +4,59 @@ const int TAILS = 2;
 
 Random rand = new Random();
 
-int randomNumber = rand.Next(1, 3);
 
-//  Added for testing purposes
-//Console.WriteLine(randomNumber);
 
-Console.WriteLine("Heads or Tails? >>");
-string usersChoice = Console.ReadLine();
-int usersGuess = -1;
+// ctrl + k, ctrl + d
+string answer;
 
-if (usersChoice == "Heads")
+do
 {
-    usersGuess = HEADS;
-}
-else if (usersChoice == "Tails")
-{
-    usersGuess = TAILS;
-}
-else
-{
-    //usersGuess = -1;
-    Console.WriteLine("Invalid input.");
-    Environment.Exit(usersGuess);
-}
+    int randomNumber = rand.Next(1, 3);
+    //  Added for testing purposes
+    //Console.WriteLine(randomNumber);
 
-if (randomNumber == HEADS)
-{
-    Console.WriteLine("The coin landed heads up");
-}
-else
-{
-    Console.WriteLine("The coin landed tails up");
-}
+    Console.WriteLine("Heads or Tails? >>");
+    string usersChoice = Console.ReadLine();
+    int usersGuess = -1;
 
-if (usersGuess == randomNumber)
-{
-    Console.WriteLine("Congratulations, you guessed correctly! =D");
-}
-else
-{
-    Console.WriteLine("Sorry, better luck next time. =(");
-}
+    if (usersChoice == "Heads")
+    {
+        usersGuess = HEADS;
+    }
+    else if (usersChoice == "Tails")
+    {
+        usersGuess = TAILS;
+    }
+    else
+    {
+        //usersGuess = -1;
+        Console.WriteLine("Invalid input.");
+        Environment.Exit(usersGuess);
+    }
 
+    if (randomNumber == HEADS)
+    {
+        Console.WriteLine("The coin landed heads up");
+    }
+    else
+    {
+        Console.WriteLine("The coin landed tails up");
+    }
+
+    if (usersGuess == randomNumber)
+    {
+        Console.WriteLine("Congratulations, you guessed correctly! =D");
+    }
+    else
+    {
+        Console.WriteLine("Sorry, better luck next time. =(");
+    }
+
+
+    Console.WriteLine("Do you want to play again? yes or no >>");
+    answer = Console.ReadLine();
+
+} while (answer == "yes");
 
 
 Console.WriteLine($"Developed by {DEVELOPER_INFORMATION}");
