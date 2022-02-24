@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example1-Version5", "Exampl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conditional-Example1", "Conditional-Example1\Conditional-Example1.csproj", "{B7BB3923-8C73-4593-B856-19F731BE44D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops-Example3", "Loops-Example3\Loops-Example3.csproj", "{5E507863-E35E-495F-AA91-0204000DC357}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops-Example3", "Loops-Example3\Loops-Example3.csproj", "{5E507863-E35E-495F-AA91-0204000DC357}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{C9989C5F-DFF7-48B8-BA16-4E7057782F48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{5E507863-E35E-495F-AA91-0204000DC357}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E507863-E35E-495F-AA91-0204000DC357}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E507863-E35E-495F-AA91-0204000DC357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9989C5F-DFF7-48B8-BA16-4E7057782F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9989C5F-DFF7-48B8-BA16-4E7057782F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9989C5F-DFF7-48B8-BA16-4E7057782F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9989C5F-DFF7-48B8-BA16-4E7057782F48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
