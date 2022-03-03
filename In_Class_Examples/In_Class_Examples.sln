@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections-Arrays", "Colle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections-Lists", "Collections-Lists\Collections-Lists.csproj", "{00DF07AB-6248-4D21-8350-0B866A6A4E93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections-Dictionaries", "Collections-Dictionaries\Collections-Dictionaries.csproj", "{CE78AD67-5EE1-4966-851E-820846385487}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{00DF07AB-6248-4D21-8350-0B866A6A4E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00DF07AB-6248-4D21-8350-0B866A6A4E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00DF07AB-6248-4D21-8350-0B866A6A4E93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE78AD67-5EE1-4966-851E-820846385487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE78AD67-5EE1-4966-851E-820846385487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE78AD67-5EE1-4966-851E-820846385487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE78AD67-5EE1-4966-851E-820846385487}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
