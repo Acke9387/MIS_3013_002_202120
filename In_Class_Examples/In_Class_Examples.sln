@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringManipulation", "Strin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections-Arrays", "Collections-Arrays\Collections-Arrays.csproj", "{485B4495-D57A-46BC-9D9C-D391B4F4B68C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections-Lists", "Collections-Lists\Collections-Lists.csproj", "{00DF07AB-6248-4D21-8350-0B866A6A4E93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{485B4495-D57A-46BC-9D9C-D391B4F4B68C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{485B4495-D57A-46BC-9D9C-D391B4F4B68C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{485B4495-D57A-46BC-9D9C-D391B4F4B68C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00DF07AB-6248-4D21-8350-0B866A6A4E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00DF07AB-6248-4D21-8350-0B866A6A4E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00DF07AB-6248-4D21-8350-0B866A6A4E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00DF07AB-6248-4D21-8350-0B866A6A4E93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
