@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops-GuessANumber", "Loops
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops-BankAccountInfo", "Loops-BankAccountInfo\Loops-BankAccountInfo.csproj", "{7602E754-EC63-4310-BC83-C390685E1F0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String_Manipulation", "String_Manipulation\String_Manipulation.csproj", "{5EF25169-0130-4CEC-B185-C1162E59541C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String_Manipulation", "String_Manipulation\String_Manipulation.csproj", "{5EF25169-0130-4CEC-B185-C1162E59541C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessingACsvFile", "ProcessingACsvFile\ProcessingACsvFile.csproj", "{66BBBD4E-50B8-4146-870D-91D531EA8D4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{5EF25169-0130-4CEC-B185-C1162E59541C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EF25169-0130-4CEC-B185-C1162E59541C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EF25169-0130-4CEC-B185-C1162E59541C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66BBBD4E-50B8-4146-870D-91D531EA8D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66BBBD4E-50B8-4146-870D-91D531EA8D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66BBBD4E-50B8-4146-870D-91D531EA8D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66BBBD4E-50B8-4146-870D-91D531EA8D4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
