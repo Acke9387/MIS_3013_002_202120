@@ -13,11 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops-Example3", "Loops-Exa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{C9989C5F-DFF7-48B8-BA16-4E7057782F48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections-Arrays", "Collections-Arrays\Collections-Arrays.csproj", "{485B4495-D57A-46BC-9D9C-D391B4F4B68C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections-Arrays", "Collections-Arrays\Collections-Arrays.csproj", "{485B4495-D57A-46BC-9D9C-D391B4F4B68C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections-Lists", "Collections-Lists\Collections-Lists.csproj", "{00DF07AB-6248-4D21-8350-0B866A6A4E93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections-Lists", "Collections-Lists\Collections-Lists.csproj", "{00DF07AB-6248-4D21-8350-0B866A6A4E93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections-Dictionaries", "Collections-Dictionaries\Collections-Dictionaries.csproj", "{CE78AD67-5EE1-4966-851E-820846385487}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections-Dictionaries", "Collections-Dictionaries\Collections-Dictionaries.csproj", "{CE78AD67-5EE1-4966-851E-820846385487}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions-Example1", "Functions-Example1\Functions-Example1.csproj", "{91311369-D2B1-4207-8F9F-FE69E0B7DB82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{CE78AD67-5EE1-4966-851E-820846385487}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE78AD67-5EE1-4966-851E-820846385487}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE78AD67-5EE1-4966-851E-820846385487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91311369-D2B1-4207-8F9F-FE69E0B7DB82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91311369-D2B1-4207-8F9F-FE69E0B7DB82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91311369-D2B1-4207-8F9F-FE69E0B7DB82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91311369-D2B1-4207-8F9F-FE69E0B7DB82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
