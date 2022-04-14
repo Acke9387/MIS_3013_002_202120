@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections-Dictionaries", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Functions-Example1", "Functions-Example1\Functions-Example1.csproj", "{91311369-D2B1-4207-8F9F-FE69E0B7DB82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsWithParallelArraysBUTWithClasses", "MethodsWithParallelArraysBUTWithClasses\MethodsWithParallelArraysBUTWithClasses.csproj", "{A846A716-8558-4357-9EE5-FD1460D38B1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodsWithParallelArraysBUTWithClasses", "MethodsWithParallelArraysBUTWithClasses\MethodsWithParallelArraysBUTWithClasses.csproj", "{A846A716-8558-4357-9EE5-FD1460D38B1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes-RectangleAndCircle", "Classes-RectangleAndCircle\Classes-RectangleAndCircle.csproj", "{7DDC8985-40F2-4CA7-9A78-431A2A91C949}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{A846A716-8558-4357-9EE5-FD1460D38B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A846A716-8558-4357-9EE5-FD1460D38B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A846A716-8558-4357-9EE5-FD1460D38B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DDC8985-40F2-4CA7-9A78-431A2A91C949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DDC8985-40F2-4CA7-9A78-431A2A91C949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DDC8985-40F2-4CA7-9A78-431A2A91C949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DDC8985-40F2-4CA7-9A78-431A2A91C949}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
