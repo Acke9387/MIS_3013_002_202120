@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProcessingACsvFile", "Proce
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleMethodSpeak", "SimpleMethodSpeak\SimpleMethodSpeak.csproj", "{F952CF3F-3B2B-4C39-956D-D19F0064C73D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionsCalculator", "FunctionsCalculator\FunctionsCalculator.csproj", "{EC30D3CF-D8EF-4541-ACAC-AB0A89FC938A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionsCalculator", "FunctionsCalculator\FunctionsCalculator.csproj", "{EC30D3CF-D8EF-4541-ACAC-AB0A89FC938A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsWithParallelArrays", "MethodsWithParallelArrays\MethodsWithParallelArrays.csproj", "{AE3D4CAD-4BC8-40E3-91D0-322636DF8C16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodsWithParallelArrays", "MethodsWithParallelArrays\MethodsWithParallelArrays.csproj", "{AE3D4CAD-4BC8-40E3-91D0-322636DF8C16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes-Toy", "Classes-Toy\Classes-Toy.csproj", "{03EDE90E-82C6-4DF7-835D-839F50FC185E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{AE3D4CAD-4BC8-40E3-91D0-322636DF8C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE3D4CAD-4BC8-40E3-91D0-322636DF8C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE3D4CAD-4BC8-40E3-91D0-322636DF8C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03EDE90E-82C6-4DF7-835D-839F50FC185E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03EDE90E-82C6-4DF7-835D-839F50FC185E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03EDE90E-82C6-4DF7-835D-839F50FC185E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03EDE90E-82C6-4DF7-835D-839F50FC185E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
